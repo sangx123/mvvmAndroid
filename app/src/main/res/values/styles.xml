@@ -1,0 +1,121 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:listDivider">@drawable/divider_bg</item>
+    </style>
+
+    <style name="Dialog_Fullscreen">
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowIsTranslucent">true</item><!--半透明-->
+        <item name="android:background">@android:color/transparent</item><!--背景透明-->
+        <item name="android:windowBackground">@android:color/transparent</item><!--背景透明-->
+        <item name="android:backgroundDimEnabled">true</item> <!--蒙版- 模糊 -->
+    </style>
+
+    <style name="PickerAnimStyle">
+        <item name="android:windowEnterAnimation">@anim/picker_in</item>
+        <item name="android:windowExitAnimation">@anim/picker_out</item>
+    </style>
+
+    <style name="StartAppTheme" parent="AppTheme.NoActionBar">
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+       <!-- <item name="android:windowBackground">@mipmap/drawable_start_page</item>-->
+    </style>
+    <!--<declare-styleable name="MTitleBar">-->
+        <!--<attr name="left_icon" format="reference" />-->
+        <!--<attr name="title" format="string" />-->
+        <!--<attr name="title_color" format="color" />-->
+        <!--<attr name="right_icon" format="reference" />-->
+        <!--<attr name="right_icon_two" format="reference" />-->
+        <!--<attr name="background_color" format="reference" />-->
+        <!--<attr name="right_text_color" format="color" />-->
+        <!--<attr name="right_text" format="string" />-->
+        <!--<attr name="left_text" format="string" />-->
+        <!--<attr name="left_text_color" format="color" />-->
+    <!--</declare-styleable>-->
+    <!--<declare-styleable name="CommonTitleBar">-->
+        <!--<attr name="left_icon" format="reference" />-->
+        <!--<attr name="title" format="string" />-->
+        <!--<attr name="title_color" format="color" />-->
+        <!--<attr name="right_icon" format="reference" />-->
+        <!--<attr name="right_icon_two" format="reference" />-->
+        <!--<attr name="background_color" format="reference" />-->
+        <!--<attr name="right_text_color" format="color" />-->
+        <!--<attr name="right_text" format="string" />-->
+        <!--<attr name="left_text" format="string" />-->
+        <!--<attr name="left_text_color" format="color" />-->
+    <!--</declare-styleable>-->
+
+    <declare-styleable name="MTitleBar">
+        <attr name="left_icon" format="reference" />
+        <attr name="title" format="string" />
+        <attr name="title_color" format="color" />
+        <attr name="right_icon" format="reference" />
+        <attr name="right_icon_two" format="reference" />
+        <attr name="background_color" format="reference" />
+        <attr name="right_text_color" format="color" />
+        <attr name="right_text_color1" format="color" />
+        <attr name="right_text" format="string" />
+        <attr name="right_text1" format="string" />
+        <attr name="left_text" format="string" />
+        <attr name="left_text_color" format="color" />
+
+    </declare-styleable>
+
+    <declare-styleable name="KeyValueLayout">
+
+        <attr name="kvl_text_hint" format="string" />
+        <attr name="kvl_edit_hint" format="string" />
+        <attr name="kvl_edit" format="boolean" />
+        <attr name="kvl_has_right_arrow" format="boolean" />
+        <attr name="kvl_has_left_icon" format="boolean" />
+        <attr name="kvl_text_warning" format="string" />
+        <attr name="kvl_has_full_line" format="boolean" />
+        <attr name="kvl_right_icon" format="reference" />
+        <attr name="kvl_left_with" format="dimension" />
+        <attr name="kvl_has_line" format="boolean" />
+        <attr name="kvl_left_icon_width" format="dimension" />
+        <attr name="kvl_left_icon_height" format="dimension" />
+        <attr name="kvl_left_icon" format="reference" />
+        <attr name="kvl_switch" format="boolean" />
+    </declare-styleable>
+
+
+
+    <style name="SwitchButtonStyle">
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+
+
+
+        <item name="kswBackDrawable">@drawable/ios_back_drawable</item>
+        <item name="kswThumbRangeRatio">1.4</item>
+        <item name="kswThumbDrawable">@drawable/ios_thumb_selector</item>
+        <item name="kswAnimationDuration">300</item>
+
+        <item name="kswThumbMarginBottom">-8dp</item>
+        <item name="kswThumbMarginLeft">-5dp</item>
+        <item name="kswThumbMarginRight">-5dp</item>
+        <item name="kswThumbMarginTop">-2.5dp</item>
+
+
+
+
+    </style>
+
+</resources>

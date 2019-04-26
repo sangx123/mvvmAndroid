@@ -1,0 +1,37 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/sangxiang/Desktop/shuadan_app_android/materialrefreshlayoutlibrary/src/main/AndroidManifest.xml:1:1-2:25
+INJECTED from /Users/sangxiang/Desktop/shuadan_app_android/materialrefreshlayoutlibrary/src/main/AndroidManifest.xml:1:1-2:25
+INJECTED from /Users/sangxiang/Desktop/shuadan_app_android/materialrefreshlayoutlibrary/src/main/AndroidManifest.xml:1:1-2:25
+INJECTED from /Users/sangxiang/Desktop/shuadan_app_android/materialrefreshlayoutlibrary/src/main/AndroidManifest.xml:1:1-2:25
+INJECTED from /Users/sangxiang/Desktop/shuadan_app_android/materialrefreshlayoutlibrary/src/main/AndroidManifest.xml:1:1-2:25
+INJECTED from /Users/sangxiang/Desktop/shuadan_app_android/materialrefreshlayoutlibrary/src/main/AndroidManifest.xml:1:1-2:25
+INJECTED from /Users/sangxiang/Desktop/shuadan_app_android/materialrefreshlayoutlibrary/src/main/AndroidManifest.xml:1:1-2:25
+	package
+		ADDED from /Users/sangxiang/Desktop/shuadan_app_android/materialrefreshlayoutlibrary/src/main/AndroidManifest.xml:2:5-22
+		INJECTED from /Users/sangxiang/Desktop/shuadan_app_android/materialrefreshlayoutlibrary/src/main/AndroidManifest.xml
+		INJECTED from /Users/sangxiang/Desktop/shuadan_app_android/materialrefreshlayoutlibrary/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/sangxiang/Desktop/shuadan_app_android/materialrefreshlayoutlibrary/src/main/AndroidManifest.xml
+		ADDED from /Users/sangxiang/Desktop/shuadan_app_android/materialrefreshlayoutlibrary/src/main/AndroidManifest.xml:1:1-2:25
+		INJECTED from /Users/sangxiang/Desktop/shuadan_app_android/materialrefreshlayoutlibrary/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/sangxiang/Desktop/shuadan_app_android/materialrefreshlayoutlibrary/src/main/AndroidManifest.xml
+		ADDED from /Users/sangxiang/Desktop/shuadan_app_android/materialrefreshlayoutlibrary/src/main/AndroidManifest.xml:1:1-2:25
+		INJECTED from /Users/sangxiang/Desktop/shuadan_app_android/materialrefreshlayoutlibrary/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/sangxiang/Desktop/shuadan_app_android/materialrefreshlayoutlibrary/src/main/AndroidManifest.xml:1:11-69
+uses-sdk
+INJECTED from /Users/sangxiang/Desktop/shuadan_app_android/materialrefreshlayoutlibrary/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/sangxiang/Desktop/shuadan_app_android/materialrefreshlayoutlibrary/src/main/AndroidManifest.xml
+INJECTED from /Users/sangxiang/Desktop/shuadan_app_android/materialrefreshlayoutlibrary/src/main/AndroidManifest.xml
+INJECTED from /Users/sangxiang/Desktop/shuadan_app_android/materialrefreshlayoutlibrary/src/main/AndroidManifest.xml
+INJECTED from /Users/sangxiang/Desktop/shuadan_app_android/materialrefreshlayoutlibrary/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/sangxiang/Desktop/shuadan_app_android/materialrefreshlayoutlibrary/src/main/AndroidManifest.xml
+		ADDED from /Users/sangxiang/Desktop/shuadan_app_android/materialrefreshlayoutlibrary/src/main/AndroidManifest.xml
+		INJECTED from /Users/sangxiang/Desktop/shuadan_app_android/materialrefreshlayoutlibrary/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/sangxiang/Desktop/shuadan_app_android/materialrefreshlayoutlibrary/src/main/AndroidManifest.xml
+		ADDED from /Users/sangxiang/Desktop/shuadan_app_android/materialrefreshlayoutlibrary/src/main/AndroidManifest.xml
+		INJECTED from /Users/sangxiang/Desktop/shuadan_app_android/materialrefreshlayoutlibrary/src/main/AndroidManifest.xml
