@@ -24,4 +24,12 @@
         <attr name="arc_bottom_text" format="string"/>
         <attr name="arc_bottom_text_size" format="dimension"/>
     </declare-styleable>
+
+    <declare-styleable name="GalleryRecyclerView">
+        <attr name="helper" format="string">
+            <enum name="LinearSnapHelper" value="0" />
+            <enum name="PagerSnapHelper" value="1" />
+        </attr>
+
+    </declare-styleable>
 </resources>

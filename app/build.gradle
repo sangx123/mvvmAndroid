@@ -73,10 +73,10 @@ android {
 
         }
         debug {
-            minifyEnabled true
+            minifyEnabled false
             shrinkResources false
             zipAlignEnabled true
-            useProguard true
+            useProguard false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.debug
             resValue "string", "jinkens_app", System.getenv("jinkens_app") ?: ""
@@ -235,6 +235,10 @@ dependencies {
 
 dependencies {
     implementation 'com.android.support:support-v4:28.+'
+}
+
+dependencies {
+    implementation 'com.android.support.constraint:constraint-layout:+'
 }
 
 dependencies {

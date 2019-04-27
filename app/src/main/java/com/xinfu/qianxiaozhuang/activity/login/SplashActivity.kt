@@ -11,6 +11,7 @@ import com.orhanobut.hawk.Hawk
 import com.xinfu.qianxiaozhuang.SpConfig
 import com.xinfu.qianxiaozhuang.activity.MainActivity
 import com.xinfu.qianxiaozhuang.api.TestApiActivity
+import com.xinfu.qianxiaozhuang.mvvm.MvvmActivity
 import io.reactivex.Flowable
 import io.reactivex.android.schedulers.AndroidSchedulers
 import kotlinx.android.synthetic.main.activity_splash.*
@@ -32,12 +33,12 @@ class SplashActivity : BaseActivity() {
         mDisposables.add(Flowable.intervalRange(0, 2, 0, 1, TimeUnit.SECONDS)
                 .observeOn(AndroidSchedulers.mainThread())
                 .doOnNext {
-                    Log.e("sangxiang", "计时:" + it)
+                    //Log.e("sangxiang", "计时:" + it)
                 }
                 .doOnComplete {
-                    Log.e("sangxiang", "计时完毕")
-                    onNextUI()
-                    //startActivity<TestApiActivity>()
+                    //Log.e("sangxiang", "计时完毕")
+                    //onNextUI()
+                    startActivity<MvvmActivity>()
                 }
                 .subscribe())
     }
